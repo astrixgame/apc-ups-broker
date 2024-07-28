@@ -116,3 +116,5 @@ class APC_Broker {
         this.connected = false;
     }
 }
+
+export default APC_Broker
