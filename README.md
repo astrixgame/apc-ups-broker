@@ -35,7 +35,8 @@ import APC_Broker from './APC_Broker.js';
 | linefreq | Hz | Input frequency
 | numxfers | Number | Count of total transfers
 | tonbatt | Sec. | Current time on battery
-| cumonbatt | Sec. | Total time on battery
+| cumonbatt | Sec. | Total time on battery |
+
 All fields in status response can be found in [apcupsd docs](https://manpages.ubuntu.com/manpages/bionic/man8/apcaccess.8.html).
 
 ## 🛠️ Tech Stack
