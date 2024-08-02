@@ -37,14 +37,14 @@ import APC_Broker from './APC_Broker.js';
 | tonbatt | Sec. | Current time on battery
 | cumonbatt | Sec. | Total time on battery |
 
-All fields in status response can be found in [apcupsd docs](https://manpages.ubuntu.com/manpages/bionic/man8/apcaccess.8.html).
+All fields in status response can be found in [ubuntu apcupsd docs](https://manpages.ubuntu.com/manpages/bionic/man8/apcaccess.8.html).
 
 ## 🛠️ Tech Stack
 - [Node.js](https://nodejs.org/)
 
 ## 🙇 Acknowledgements      
 - [APC Protocol docs](https://networkupstools.org/protocols/apcsmart.html)
-- [apcupsd Docs](https://wiki.debian.org/apcupsd)
+- [apcupsd Docs](https://wiki.debian.org/apcupsd). **Note**: different models can have different fields in status.
         
  
 ## ➤ License
