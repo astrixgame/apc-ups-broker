@@ -24,20 +24,20 @@ import APC_Broker from './APC_Broker.js';
 | loadpct | % | Output load
 | bcharge | % | Battery charge level
 | timeleft | Min. | Time left to shutdown (battery)
-| mbattchg | % | ---
-| mintimel | Min. | ---
+| mbattchg | % | Minimal battery charge level
+| mintimel | Min. | Minimal battery runtime
 | outputv | V | Output voltage
-| dwake | Sec. | ---
-| dshutd | Sec. | ---
+| dwake | Sec. | Time before power on after power restore
+| dshutd | Sec. | Delay for shutdown command
 | lotrans | V | Low transfer (low voltage to start transfer)
 | hitrans | V | High transfer (high voltage to start transfer)
-| retpct | % | ---
+| retpct | % | Battery level required to turn on
 | itemp | °C / °F | UPS temperature
 | battv | V | Battery voltage
 | linefreq | Hz | Input frequency
-| numxfers | Number | ---
-| tonbatt | Sec. | ---
-| cumonbatt | Sec. | ---
+| numxfers | Number | Count of total transfers
+| tonbatt | Sec. | Current time on battery
+| cumonbatt | Sec. | Total time on battery
         
 
 ## 🛠️ Tech Stack
