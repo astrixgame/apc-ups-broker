@@ -33,7 +33,7 @@ import APC_Broker from './APC_Broker.js';
 | itemp | °C / °F | UPS temperature
 | battv | V | Battery voltage
 | linefreq | Hz | Input frequency
-| numxfers | Number | Count of total transfers
+| numxfers | Number | Total count of transfers
 | tonbatt | Sec. | Current time on battery
 | cumonbatt | Sec. | Total time on battery |
 
