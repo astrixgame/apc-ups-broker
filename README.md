@@ -2,6 +2,11 @@
 
 Used to format data into JSON format from APC UPSs using **apcupsd daemon** via TCP by default port **3551**
 
+## 🛠️ Install package    
+```bash
+npm install apc-ups-broker
+```
+
 ## 🧑🏻‍💻 Usage
 ```js
 import APC_Broker from './APC_Broker.js';
