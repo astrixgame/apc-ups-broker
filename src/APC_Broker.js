@@ -116,3 +116,5 @@ class APCBroker {
         this.connected = false;
     }
 }
+
+module.exports = APCBroker
