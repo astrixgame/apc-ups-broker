@@ -9,14 +9,14 @@ npm install apc-ups-broker
 
 ## 🧑🏻‍💻 Usage
 ```js
-import APC_Broker from './APC_Broker.js';
+var APCBroker = require('apc-ups-broker');
 
 (async () => {
-    var ups = new APC_Broker();
+    var test = new APCBroker();
 
-    ups.on('values', data => console.log(data));
+    test.on('values', data => console.log(data));
 
-    ups.get('values');
+    setInterval(() => test.get('values'), 5000);
 })();
 ```
 
