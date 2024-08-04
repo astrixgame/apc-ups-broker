@@ -1,7 +1,7 @@
-import APC_Broker from './APC_Broker.js';
+var APCBroker = require('APCBroker');
 
 (async () => {
-    var test = new APC_Broker();
+    var test = new APCBroker();
 
     test.on('values', data => console.log(data));
 
