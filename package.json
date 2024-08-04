@@ -1,5 +1,5 @@
 {
-  "name": "@astrixgame/apc-broker",
+  "name": "apc-ups-broker",
   "version": "1.0.0",
   "description": "Used for formating data into structured JSON from APC UPSs ",
   "main": "main.js",
