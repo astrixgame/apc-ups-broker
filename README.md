@@ -53,6 +53,7 @@ import APCBroker from 'apc-ups-broker';
 | cumonbatt | Sec. | Total time on battery |
 
 All fields in status response can be found in [ubuntu apcupsd docs](https://manpages.ubuntu.com/manpages/bionic/man8/apcaccess.8.html).
+<br><br>
 **Note**: Different ups can have different status fields, which you can find out on apcupsd docs.
 
 ## 🛠️ Tech Stack
