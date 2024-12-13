@@ -22,11 +22,11 @@ Full example using ES6 module syntax
 import APCBroker from 'apc-ups-broker';
 
 (async () => {
-    var test = new APCBroker();
+    var ups = new APCBroker();
 
-    test.on('values', data => console.log(data));
+    ups.on('values', data => console.log(data));
 
-    setInterval(() => test.get('values'), 5000);
+    setInterval(() => ups.get('values'), 5000);
 })();
 ```
 
