@@ -7,7 +7,16 @@ Used to format unstructured data into JSON from APC UPSs using **apcupsd daemon*
 npm install apc-ups-broker
 ```
 
-## 🧑🏻‍💻 Usage (ES6)
+## 🧑🏻‍💻 Usage
+Using CommonJS 
+```js
+const APCBroker = require('apc-ups-broker');
+```
+Using ES6 module
+```js
+import APCBroker from 'apc-ups-broker';
+```
+
 ```js
 var APCBroker = require('apc-ups-broker');
 import APCBroker from 'apc-ups-broker';
