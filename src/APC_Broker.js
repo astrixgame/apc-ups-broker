@@ -118,3 +118,4 @@ class APCBroker {
 }
 
 module.exports = APCBroker
+export default APCBroker
