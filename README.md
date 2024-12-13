@@ -17,8 +17,8 @@ Using ES6 module
 import APCBroker from 'apc-ups-broker';
 ```
 
+Full example using ES6 module syntax
 ```js
-var APCBroker = require('apc-ups-broker');
 import APCBroker from 'apc-ups-broker';
 
 (async () => {
