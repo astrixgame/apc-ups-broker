@@ -61,7 +61,6 @@ All fields in status response can be found in [ubuntu apcupsd docs](https://manp
 ## 🙇 Acknowledgements      
 - [APC Protocol docs](https://networkupstools.org/protocols/apcsmart.html)
 - [apcupsd Docs](https://wiki.debian.org/apcupsd)
-<br>**Note**: different models can have different fields in status.
         
  
 ## ➤ License
