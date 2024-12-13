@@ -1,15 +1,16 @@
 # APC UPS Broker
 
-Used to format data into JSON format from APC UPSs using **apcupsd daemon** via TCP by default port **3551**
+Used to format unstructured data into JSON from APC UPSs using **apcupsd daemon** via TCP by default port **3551**
 
 ## 🛠️ Install package    
 ```bash
 npm install apc-ups-broker
 ```
 
-## 🧑🏻‍💻 Usage
+## 🧑🏻‍💻 Usage (ES6)
 ```js
 var APCBroker = require('apc-ups-broker');
+import APCBroker from 'apc-ups-broker';
 
 (async () => {
     var test = new APCBroker();
@@ -50,7 +51,8 @@ All fields in status response can be found in [ubuntu apcupsd docs](https://manp
 
 ## 🙇 Acknowledgements      
 - [APC Protocol docs](https://networkupstools.org/protocols/apcsmart.html)
-- [apcupsd Docs](https://wiki.debian.org/apcupsd). **Note**: different models can have different fields in status.
+- [apcupsd Docs](https://wiki.debian.org/apcupsd)
+<br>**Note**: different models can have different fields in status.
         
  
 ## ➤ License
