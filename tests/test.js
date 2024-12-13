@@ -1,4 +1,4 @@
-var APCBroker = require('../index.js');
+import APCBroker from '../index.js';
 
 (async () => {
     var test = new APCBroker();
